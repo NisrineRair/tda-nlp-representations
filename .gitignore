@@ -5,10 +5,10 @@
 **/excluded_points.tsv
 **/mapper_graph.json
 # Ignore everything inside any data/ directory
-data/
+data/*
 # Ignore large model checkpoints and outputs
-fine_tuned_models/
-lens_outputs/
+fine_tuned_models/*
+lens_outputs/*
 
 # Python cache and venv
 __pycache__/
@@ -19,3 +19,7 @@ __pycache__/
 # Logs and temp
 *.log
 *.tmp
+# But keep the placeholder
+!data/.gitkeep
+!fine_tuned_models/.gitkeep
+!lens_outputs/.gitkeep

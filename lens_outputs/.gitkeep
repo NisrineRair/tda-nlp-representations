@@ -1,0 +1,5 @@
+mkdir -p data fine_tuned_models lens_outputs embeddings
+touch data/.gitkeep
+touch fine_tuned_models/.gitkeep
+touch lens_outputs/.gitkeep
+touch embeddings/.gitkeep

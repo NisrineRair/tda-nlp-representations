@@ -1,0 +1,17 @@
+Mapper Color Legend (colormap: viridis)
+
+Offensive_binary_label:
+  0 = 0 -> rgb(68, 1, 84)
+  1 = 1 -> rgb(253, 231, 36)
+
+Agreement_level:
+  0 = A+ -> rgb(68, 1, 84)
+
+Domain:
+  0 = Elections2020 -> rgb(68, 1, 84)
+  1 = Covid-19 -> rgb(32, 144, 140)
+  2 = BLM -> rgb(253, 231, 36)
+
+model_prediction:
+  0 = 0 -> rgb(68, 1, 84)
+  1 = 1 -> rgb(253, 231, 36)

@@ -1,0 +1,21 @@
+# Ignore all raw_metadata.tsv files anywhere in the repo
+**/raw_metadata.tsv
+**/mean_embeddings.tsv
+**/cls_embeddings.tsv
+**/excluded_points.tsv
+**/mapper_graph.json
+# Ignore everything inside any data/ directory
+data/
+# Ignore large model checkpoints and outputs
+fine_tuned_models/
+lens_outputs/
+
+# Python cache and venv
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# Logs and temp
+*.log
+*.tmp

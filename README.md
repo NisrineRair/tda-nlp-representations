@@ -21,9 +21,15 @@ Please follow the link to obtain the dataset before running the scripts.
 - `data/` – placeholder for the MD-Offense dataset (not tracked in git).  
   - `raw_data/` – place MD-Offense raw files here.  
   - `processed/` – preprocessed data files.  
-- `embeddings/` – base and fine-tuned embeddings (CLS and mean; ignored by git).  
+- `embeddings/` – base and fine-tuned embeddings (CLS, ignored by git).  
 - `fine_tuned_models/` – checkpoints of fine-tuned models (ignored by git, can be regenerated with scripts).  
 - `requirements.txt` – Python dependencies to reproduce experiments.  
+
+## Reproducibility Note
+Due to the randomness of model fine-tuning (e.g., different seeds, initialization, or minor environment differences), 
+exact numerical values reported in the paper may not be reproduced exactly.  
+This variance is expected and primarily due to training randomness.
+However, the **qualitative trends and topological patterns consistently hold**: fine-tuning produces modular, prediction-aligned regions, and the largest gap between prediction purity and label purity appears in A0.
 
 
 ## Citation

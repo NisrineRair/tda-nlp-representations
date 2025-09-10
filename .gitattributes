@@ -1,0 +1,2 @@
+# Treat generated visualizations as non-source
+mapper/** linguist-generated=true

@@ -26,10 +26,9 @@ Please follow the link to obtain the dataset before running the scripts.
 - `requirements.txt` – Python dependencies to reproduce experiments.  
 
 ## Reproducibility Note
-Due to the randomness of model fine-tuning (e.g., different seeds, initialization, or minor environment differences), 
-exact numerical values reported in the paper may not be reproduced exactly.  
-This variance is expected and primarily due to training randomness.
-However, the **qualitative trends and topological patterns consistently hold**: fine-tuning produces modular, prediction-aligned regions, and the largest gap between prediction purity and label purity appears in A0.
+Results may vary slightly due to randomness in model fine-tuning (e.g., seeds, initialization, or environment). This variance is expected, but the qualitative trends remain stable: fine-tuning yields modular, prediction-aligned regions, and the largest prediction–label gap appears in A0.
+
+If you experiment with 2D lenses, we recommend using n_cubes=20 and overlap=0.2 (see Appendix for details). These hyperparameters worked well on MD-Offense, but may need adjustment for other datasets.
 
 
 ## Citation

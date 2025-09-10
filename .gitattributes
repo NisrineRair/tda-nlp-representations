@@ -1,2 +1,6 @@
-# Treat generated visualizations as non-source
-mapper/** linguist-generated=true
+# Default: don't count anything
+* linguist-detectable=false
+
+# Only count actual Python source files in these folders
+analysis/**/*.py linguist-detectable=true
+scripts/**/*.py  linguist-detectable=true

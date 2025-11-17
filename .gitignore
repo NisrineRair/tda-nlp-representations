@@ -9,6 +9,7 @@ data/*
 # Ignore large model checkpoints and outputs
 fine_tuned_models/*
 lens_outputs/*
+embeddings/*
 
 # Python cache and venv
 __pycache__/
